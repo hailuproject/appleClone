@@ -1,0 +1,145 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap-center {
+  max-width: 61.25rem;
+  padding: 0.63rem 1.56rem;
+  margin: 0 auto;
+}
+.discription-text12 {
+  font-size: 1.25rem;
+}
+.link-list ul {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+  font-size: 1.25rem;
+  list-style: none;
+  gap: 1.5625rem;
+}
+.link-list a {
+  text-decoration: none;
+  color: #0066cc;
+}
+.link-list a:hover {
+  color: black;
+}
+
+/* Greater than sign style */
+
+.fa-chevron-right {
+  font-size: 0.875rem;
+}
+.sixth-container .left-sub-container,
+.sixth-container .right-sub-container {
+  width: 48.5%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sixth-container {
+  display: flex;
+  justify-content: center;
+  height: 37.5rem;
+  padding-top: 0.3125rem;
+  gap: 0.9375rem;
+}
+.sixth-container .left-sub-container {
+  background-image: url(../images/home/macbook-pro.jpg);
+  background-position: bottom;
+  object-fit: cover;
+  padding-top: 1.5625rem;
+  background-color: #fafafa;
+}
+.sixth-container .right-sub-container {
+  background-image: url(../images/home/new-ipad.jpg);
+  padding-top: 1.5625rem;
+  background-color: #fafafa;
+}
+.main-title-small {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.footer-container {
+  margin: 0 auto;
+  font-size: 0.75rem;
+  background-color: #d4d1d188;
+}
+.content-text {
+  color: grey;
+}
+.terms {
+  text-decoration: none;
+  color: grey;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style: none;
+  width: 61.25rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+.footer-wrapper h3 {
+  font-size: 0.6875rem;
+  padding-top: 0.9375rem;
+}
+
+.footer-wrapper ul {
+  list-style: none;
+}
+.footer-wrapper a {
+  text-decoration: none;
+  line-height: 1.8;
+  color: rgb(116, 114, 114);
+}
+
+/* footer border and padding */
+
+.footer-container .content-text,
+.contact-info {
+  border-bottom: 0.0625rem solid rgb(226, 207, 207);
+  padding-bottom: 1.125rem;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: blue;
+}
+.contact-info a:hover,
+.footer-link a:hover,
+.footer-wrapper a:hover,
+.terms:hover {
+  text-decoration: underline;
+}
+.footer-link ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.footer-link a {
+  border-right: 0.0625rem solid grey;
+  padding: 0 0.3125rem;
+  text-decoration: none;
+  color: grey;
+}
+#sitemap {
+  border-right: none;
+}
+.bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.625rem;
+}
+.countryUS {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
