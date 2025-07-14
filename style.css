@@ -1,0 +1,70 @@
+
+.fourth-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.9375rem;
+  height: 625px;
+  background-color: #fafafa;
+}
+.watch-icon,
+.card-logo {
+  padding-top: 45px;
+}
+
+.fourth-container .left-sub-container,
+.fourth-container .right-sub-container,
+.fifth-container .left-sub-container,
+.fifth-container .right-sub-container,
+.sixth-container .left-sub-container,
+.sixth-container .right-sub-container {
+  width: 48.5%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fourth-container .left-sub-container {
+  background-image: url(../images/home/watch-series-5.jpg);
+  padding-right: 10px;
+}
+.fourth-container .right-sub-container {
+  background-image: url(../images/home/apple-card.jpg);
+}
+
+/* fifth container / tv+ and Airpods pro style */
+
+.fifth-container {
+  display: flex;
+  justify-content: center;
+  height: 36.25rem;
+  padding-top: 0.3125rem;
+  gap: 0.9375rem;
+}
+.fifth-container .left-sub-container {
+  background-image: url(../images/home/apple-tv-background.jpg);
+
+  object-fit: cover;
+}
+.servant-logo {
+  padding: 10.625rem 0;
+}
+.trailer,
+.fifth-container .left-sub-container {
+  padding-top: 1.5625rem;
+}
+.trailer a {
+  text-decoration: none;
+  color: blue;
+}
+.trailer:hover {
+  transform: scale(1.5);
+}
+
+.fifth-container .right-sub-container {
+  background-image: url(../images/home/air-pods.jpg);
+  background-position: bottom;
+  background-color: black;
+  color: white;
+  padding-top: 1.25rem;
+  margin: 0 0.3125rem;
+}
