@@ -1,0 +1,75 @@
+/* Universal style */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* description style */
+
+.discription-text1 {
+  font-size: 2.5rem;
+}
+.discription-text {
+  font-size: 1.56rem;
+  padding: 0.9375rem 0;
+}
+.discription-text12 {
+  font-size: 1.25rem;
+}
+.price-text {
+  color: grey;
+}
+
+/* Learm more and buy styles */
+
+.link-list ul {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+  font-size: 1.25rem;
+  list-style: none;
+  gap: 1.5625rem;
+}
+.link-list a {
+  text-decoration: none;
+  color: #0066cc;
+}
+.link-list a:hover {
+  color: rgb(173, 161, 161);
+}
+
+/* Greater than sign style */
+
+.fa-chevron-right {
+  font-size: 0.875rem;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+/* iPhone 11 Pro style  / Second container*/
+
+.second-container {
+  height: 36.25rem;
+  text-align: center;
+  background-image: url(./images/home/iphone11-pro-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 1.25rem 0;
+}
+
+/* third container / Iphone 11 part style */
+
+.third-container {
+  height: 36.25rem;
+  text-align: center;
+  background-image: url(./images/home/iphone11-bg.jpg);
+  background-position: center;
+  margin-bottom: 10px;
+}
