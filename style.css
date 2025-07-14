@@ -1,8 +1,4 @@
-
-
-
 /* Universal style */
-
 
 * {
   font-family: "Montserrat", sans-serif;
@@ -10,7 +6,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 
 /* description style */
 
@@ -20,12 +15,11 @@
 .discription-text {
   font-size: 1.56rem;
   padding: 0.9375rem 0;
-
+}
 .wrap-center {
   max-width: 61.25rem;
   padding: 0.63rem 1.56rem;
   margin: 0 auto;
-
 }
 .discription-text12 {
   font-size: 1.25rem;
@@ -36,7 +30,6 @@
 }
 
 /* Learm more and buy styles */
-
 
 .link-list ul {
   display: flex;
@@ -51,11 +44,9 @@
   color: #0066cc;
 }
 .link-list a:hover {
-
   color: rgb(173, 161, 161);
 
   color: black;
-
 }
 
 /* Greater than sign style */
@@ -63,7 +54,6 @@
 .fa-chevron-right {
   font-size: 0.875rem;
 }
-
 
 .main-title {
   font-size: 3.5rem;
@@ -114,7 +104,6 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 .fourth-container .left-sub-container {
   background-image: url(../images/home/watch-series-5.jpg);
@@ -265,5 +254,3 @@
   justify-content: center;
   gap: 0.5rem;
 }
-
-
