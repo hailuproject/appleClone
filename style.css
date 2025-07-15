@@ -7,6 +7,36 @@
   box-sizing: border-box;
 }
 
+/* header style */
+
+.headerbg {
+  background-color: black;
+}
+.headerbg ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.63rem 0;
+  list-style: none;
+}
+.headerbg ul a {
+  color: rgb(173, 161, 161);
+  text-decoration: none;
+  font-size: 0.94rem;
+  font-weight: 500;
+}
+.headerbg ul a:hover {
+  opacity: 0.5;
+}
+.wrap-center {
+  max-width: 61.25rem;
+  padding: 0.63rem 1.56rem;
+  margin: 0 auto;
+}
+.reduce-icon {
+  width: 1.25rem;
+}
+
 /* description style */
 
 .discription-text1 {
