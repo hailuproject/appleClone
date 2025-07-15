@@ -28,11 +28,7 @@
 .headerbg ul a:hover {
   opacity: 0.5;
 }
-.wrap-center {
-  max-width: 61.25rem;
-  padding: 0.63rem 1.56rem;
-  margin: 0 auto;
-}
+
 .reduce-icon {
   width: 1.25rem;
 }
